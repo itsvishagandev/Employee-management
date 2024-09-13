@@ -1,9 +1,8 @@
-import { THomeProps } from "./types";
 import OrganizationTreeView from "./components/OrganizationTreeView";
 import { useOrganizationContext } from "../../lib/context/OrganizationContext";
 import { ManageEmployeeModal } from "./components";
 
-const Home = ({}: THomeProps) => {
+const Home = () => {
   const { organizationDetails, manageEmployee, handleManageEmployee } =
     useOrganizationContext();
 

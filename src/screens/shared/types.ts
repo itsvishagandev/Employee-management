@@ -1,1 +1,1 @@
-export type THeaderProps = {}
+export type THeaderProps = {};

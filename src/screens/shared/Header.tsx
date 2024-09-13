@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import { THeaderProps } from "./types";
 
-const Header = ({}: THeaderProps) => {
+const Header = () => {
   return (
     <header>
       <Link to="/" className="logo d-flex align-item-center">
